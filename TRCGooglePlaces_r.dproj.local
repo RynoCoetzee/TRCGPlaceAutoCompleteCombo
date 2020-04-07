@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/03/30 11:34:35.000.589,=rtl.dcp</Transaction>
+    <Transaction>2020/03/30 11:34:46.000.672,E:\Rad Studio 10\TGoogleLocation\TRCGooglePlaces_r.dproj=E:\Rad Studio 10\Rad Studio 10.3\Package1.dproj</Transaction>
+    <Transaction>2020/03/30 11:36:13.000.008,=E:\Rad Studio 10\TGoogleLocation\Unit1.pas</Transaction>
+    <Transaction>2020/03/30 11:36:41.000.404,=E:\Rad Studio 10\TGoogleLocation\Interfaces\uAutocompleteControlIntf.pas</Transaction>
+    <Transaction>2020/03/30 12:57:19.000.699,=E:\Rad Studio 10\TGoogleLocation\JsonClassHelpers\uGooglePlacesAutocomplete.pas</Transaction>
+    <Transaction>2020/03/30 13:02:33.000.198,=E:\Rad Studio 10\TGoogleLocation\Unit1.pas</Transaction>
+    <Transaction>2020/03/30 13:03:43.000.962,E:\Rad Studio 10\TGoogleLocation\Unit1.pas=E:\Rad Studio 10\TGoogleLocation\Classes\uRCGPlaceAutocompleteEdit.pas</Transaction>
+    <Transaction>2020/03/30 13:05:41.000.790,E:\Rad Studio 10\TGoogleLocation\Interfaces\uAutocompleteControlIntf.pas=E:\Rad Studio 10\TGoogleLocation\Interfaces\uAutoXompleteControlIntf.pas</Transaction>
+    <Transaction>2020/03/30 13:05:48.000.307,E:\Rad Studio 10\TGoogleLocation\Interfaces\uAutoXompleteControlIntf.pas=E:\Rad Studio 10\TGoogleLocation\Interfaces\uAutoCompleteControlIntf.pas</Transaction>
+    <Transaction>2020/03/30 13:34:49.000.762,=E:\Rad Studio 10\TGoogleLocation\Unit1.pas</Transaction>
+    <Transaction>2020/03/30 13:35:30.000.693,E:\Rad Studio 10\TGoogleLocation\Unit1.pas=E:\Rad Studio 10\TGoogleLocation\Enums\uEnums.pas</Transaction>
+    <Transaction>2020/03/30 13:41:57.000.002,E:\Rad Studio 10\TGoogleLocation\Classes\uRCGPlaceAutocompleteEdit.pas=E:\Rad Studio 10\TGoogleLocation\Classes\uRCGPlaceAutocompleteCombo.pas</Transaction>
+    <Transaction>2020/03/30 14:04:57.000.783,=vcl.dcp</Transaction>
+    <Transaction>2020/03/30 14:04:57.000.787,=RESTComponents.dcp</Transaction>
+    <Transaction>2020/03/31 09:26:58.000.763,=E:\Rad Studio 10\TGoogleLocation\uEnums.pas</Transaction>
+    <Transaction>2020/03/31 09:26:58.000.812,=E:\Rad Studio 10\TGoogleLocation\uGooglePlacesAutocomplete.pas</Transaction>
+    <Transaction>2020/03/31 09:27:16.000.198,=E:\Rad Studio 10\TGoogleLocation\RCGooglePlaces.pas</Transaction>
+    <Transaction>2020/03/31 09:27:16.000.299,=E:\Rad Studio 10\TGoogleLocation\uRC_GooglePlace.pas</Transaction>
+    <Transaction>2020/03/31 09:27:40.000.740,=E:\Rad Studio 10\TGoogleLocation\uRCGPlaceAutocompleteCombo.pas</Transaction>
+    <Transaction>2020/03/31 09:34:55.000.251,=E:\Rad Studio 10\TGoogleLocation\Unit1.pas</Transaction>
+    <Transaction>2020/03/31 09:35:14.000.223,E:\Rad Studio 10\TGoogleLocation\Unit1.pas=E:\Rad Studio 10\TGoogleLocation\uAutoCompleteControlIntf.pas</Transaction>
+    <Transaction>2020/03/31 18:02:02.000.636,E:\Rad Studio 10\TGoogleLocation\RCGooglePlaces.pas=</Transaction>
+    <Transaction>2020/03/31 18:31:26.000.499,=vclwinx.dcp</Transaction>
+    <Transaction>2020/03/31 18:31:26.000.494,=vclimg.dcp</Transaction>
+    <Transaction>2020/04/03 16:30:58.000.441,=E:\Rad Studio 10\TGoogleLocation\Unit1.pas</Transaction>
+    <Transaction>2020/04/03 16:31:54.000.299,E:\Rad Studio 10\TGoogleLocation\Unit1.pas=E:\Rad Studio 10\TGoogleLocation\uGooglePlacesDetails.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="-1" SortType="0">
+	</ProjectSortOrder>
+</BorlandProject>

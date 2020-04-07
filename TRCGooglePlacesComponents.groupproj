@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{CBC1EADE-BB91-4343-BB5D-81E12E1D2156}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="TGooglePlacesTest.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TRCGooglePlaces_d.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TRCGooglePlaces_r.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="TGooglePlacesTest">
+        <MSBuild Projects="TGooglePlacesTest.dproj"/>
+    </Target>
+    <Target Name="TGooglePlacesTest:Clean">
+        <MSBuild Projects="TGooglePlacesTest.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TGooglePlacesTest:Make">
+        <MSBuild Projects="TGooglePlacesTest.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TRCGooglePlaces_d">
+        <MSBuild Projects="TRCGooglePlaces_d.dproj"/>
+    </Target>
+    <Target Name="TRCGooglePlaces_d:Clean">
+        <MSBuild Projects="TRCGooglePlaces_d.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TRCGooglePlaces_d:Make">
+        <MSBuild Projects="TRCGooglePlaces_d.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TRCGooglePlaces_r">
+        <MSBuild Projects="TRCGooglePlaces_r.dproj"/>
+    </Target>
+    <Target Name="TRCGooglePlaces_r:Clean">
+        <MSBuild Projects="TRCGooglePlaces_r.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TRCGooglePlaces_r:Make">
+        <MSBuild Projects="TRCGooglePlaces_r.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="TGooglePlacesTest;TRCGooglePlaces_d;TRCGooglePlaces_r"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="TGooglePlacesTest:Clean;TRCGooglePlaces_d:Clean;TRCGooglePlaces_r:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="TGooglePlacesTest:Make;TRCGooglePlaces_d:Make;TRCGooglePlaces_r:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
